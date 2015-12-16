@@ -1,5 +1,6 @@
 package ionio.tramooc.gui;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 /**
@@ -14,6 +15,8 @@ public class MainFrame extends JFrame {
         setTitle("CSV Generator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(650, 250);
+        ImageIcon fav = new ImageIcon("res/fav.png");
+        setIconImage(fav.getImage());
         setLocationRelativeTo(null);
 
         add(new InputOutputPanel());
