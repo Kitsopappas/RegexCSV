@@ -11,7 +11,7 @@ public class MainFrame extends JFrame {
 
     public void init() {
         Nimbus.install();
-        setTitle("traMOOC CSV Generator");
+        setTitle("CSV Generator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(650, 250);
         setLocationRelativeTo(null);
