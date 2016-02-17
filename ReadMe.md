@@ -1,7 +1,7 @@
 ## RegexCSV
 
 ![alt tag](http://icons.iconarchive.com/icons/pelfusion/flat-file-type/32/doc-icon.png)
-> Concert xml data to csv format.
+> Convert text data to csv format.
 > Regex string have to change if you want to parse other files
 
 ## Screenshots
